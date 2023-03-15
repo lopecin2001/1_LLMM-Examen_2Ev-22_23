@@ -6,8 +6,8 @@
 #contenedor{
  display: grid;
  background-color:#C3C3C3;
- grid-template-columns:repeat(4,1fr) ;
- grid-template-rows:repeat(5,1fr) ;
+ grid-template-columns:repeat(3,1fr) ;
+ grid-template-rows:repeat(3,1fr) ;
  min-height: 350px;
  width: 100%;
  padding: 20px;
@@ -28,8 +28,8 @@ grid-row:1/2;
   grid-row:2/3 ;
 }  
 .hijo:nth-of-type(3){
-  grid-column:4/5 ;
-  grid-row:-6/-3 ; 
+  grid-column:3/5;
+  grid-row:-4/-1; 
 }
 .hijo:nth-of-type(4){
   grid-column:1/3 ;
